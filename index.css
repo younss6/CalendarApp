@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Pour la calendar de react-calendar */
+.react-calendar {
+  width: 100%;
+  background: white;
+  border: none;
+  font-family: sans-serif;
+  line-height: 1.125em;
+}
