@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calendrier Perso & Travail</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <h1>Mon Calendrier</h1>
+    </header>
+
+    <section class="calendar-controls">
+      <label for="day-select">Choisir un jour :</label>
+      <select id="day-select"></select>
+
+      <div class="work-hours">
+        <label for="start-time">Début :</label>
+        <input type="time" id="start-time" />
+        <label for="end-time">Fin :</label>
+        <input type="time" id="end-time" />
+        <button id="save-hours">Enregistrer</button>
+      </div>
+    </section>
+
+    <section class="todo-section">
+      <h2>Todo pour <span id="selected-day"></span></h2>
+      <input type="text" id="todo-input" placeholder="Nouvelle tâche..." />
+      <button id="add-todo">Ajouter</button>
+      <ul id="todo-list"></ul>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
