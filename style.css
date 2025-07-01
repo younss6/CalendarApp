@@ -1,0 +1,68 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f6fa;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  text-align: center;
+  color: #2f3640;
+}
+
+.calendar-controls,
+.todo-section {
+  margin-top: 20px;
+}
+
+#day-select,
+input[type="time"],
+#todo-input {
+  padding: 8px;
+  margin: 5px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #00a8ff;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0097e6;
+}
+
+ul#todo-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+ul#todo-list li {
+  padding: 8px;
+  background: #dcdde1;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul#todo-list li span {
+  flex: 1;
+}
